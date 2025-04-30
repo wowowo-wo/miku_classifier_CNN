@@ -4,7 +4,7 @@ This repository contains a notebook you can run directly in Colab.
 
 ## Run on Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wowowo-wo/miku_classifier_CNN_by_keras_notebook/blob/main/miku_classifier_CNN_by_keras.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wowowo-wo/miku_classifier_CNN_by_keras/blob/main/miku_classifier_CNN_by_keras.ipynb)
 
 ## About miku_classifier_CNN_by_keras.ipynb
 
