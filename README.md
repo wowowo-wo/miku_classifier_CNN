@@ -9,9 +9,13 @@ This repository contains a notebook you can run directly in Colab.
 ## About miku_classifier_CNN_by_keras.ipynb
 
 This notebook covers the following steps:
+
 1.Scraping image data needed for training
+
 2.Building and training a model using Keras
+
 3.Evaluating the trained model
+
 4.Using the model to check whether a given image (via URL) contains Miku or not
 
 
