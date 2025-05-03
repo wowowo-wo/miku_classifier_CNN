@@ -1,6 +1,6 @@
 # miku_classifier_CNN
 
-Miku Classifier is a simple CNN that tells you whether or not Hatsune Miku appears in an image. Built with PyTorch.
+miku_classifier_CNN is a simple CNN that tells you whether or not Hatsune Miku appears in an image. Built with PyTorch.
 
 # Usage
 
@@ -35,9 +35,13 @@ This notebook covers the following steps:
 ### 2.miku_classifier_ResNet50
 
 This notebook covers the following steps:
+
 1.loading and preprocessing images
-2.Transfer learning with ResNet50 using pytorch
+
+2.Transfer learning with ResNet50 using PyTorch
+
 3.save the trained model
+
 4.Using the model to check whether a given image via URL contains Miku or not
 
 #### Run on Colab
