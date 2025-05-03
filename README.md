@@ -46,7 +46,6 @@ This notebook covers the following steps:
 #### Run on Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wowowo-wo/miku_classifier_CNN/blob/main/notebooks/miku_classifier_ResNet50.ipynb)
->>>>>>> 0e4c693 (changed overall)
 
 
 ## Requirements
