@@ -1,12 +1,22 @@
-# miku_classifier_CNN_by_keras_notebook
+# miku_classifier_CNN
 
-This repository contains a notebook you can run directly in Colab.
+Miku Classifier is a simple CNN that tells you whether or not Hatsune Miku appears in an image. Built with PyTorch.
 
-## Run on Colab
+# Usage
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wowowo-wo/miku_classifier_CNN_by_keras/blob/main/miku_classifier_CNN_by_keras.ipynb)
+Just run the command below to see whether the model thinks Miku is in your image — along with its confidence score.
 
-## About miku_classifier_CNN_by_keras.ipynb
+```bash
+git clone https://github.com/wowowo-wo/miku_classifier_CNN
+cd miku_classifier_CNN
+python3 cli.py (URL of image file)
+```
+
+## About Notebooks
+
+The notebooks directory includes two ipynb files. They're mostly experiments and drafts, but you're welcome to play with them — they contain reusable functions and ideas.
+
+### 1.miku_classifier_CNN_by_keras.ipynb
 
 This notebook covers the following steps:
 
@@ -15,10 +25,35 @@ This notebook covers the following steps:
 2.Building and training a model using Keras
 
 3.Evaluating the trained model
+<<<<<<< HEAD
 
 4.Using the model to check whether a given image (via URL) contains Miku or not
+=======
+4.Using the model to check whether a given image via URL contains Miku or not.
+
+#### Run on Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wowowo-wo/miku_classifier_CNN/blob/main/notebooks/miku_classifier_CNN_by_keras.ipynb)
+
+### 2.miku_classifier_ResNet50
+
+This notebook covers the following steps:
+1.loading and preprocessing images
+2.Transfer learning with ResNet50 using pytorch
+3.save the trained model
+4.Using the model to check whether a given image via URL contains Miku or not
+
+#### Run on Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wowowo-wo/miku_classifier_CNN/blob/main/notebooks/miku_classifier_ResNet50.ipynb)
+>>>>>>> 0e4c693 (changed overall)
 
 
 ## Requirements
 
-The notebook installs any extra packages it needs using `pip`, so you can run it as-is in Colab — no setup needed on your side.
+
+```bash
+sudo apt install chafa
+pip install -r requirements.txt
+```
+
