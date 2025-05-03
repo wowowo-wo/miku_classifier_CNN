@@ -25,10 +25,7 @@ This notebook covers the following steps:
 2.Building and training a model using Keras
 
 3.Evaluating the trained model
-<<<<<<< HEAD
 
-4.Using the model to check whether a given image (via URL) contains Miku or not
-=======
 4.Using the model to check whether a given image via URL contains Miku or not.
 
 #### Run on Colab
