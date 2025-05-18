@@ -15,6 +15,7 @@ python3 cli.py (URL of image file)
 example:
 ```bash
 python3 cli.py https://piapro.net/images/ch_img_miku.png
+
                ▁▃▅▅▅▅▇▅▖
               ▘▗╺▇▘▇▖╹▍╴▖
              ▘▏▗╲▌▁▄▋▂╿▏┊▖
@@ -44,10 +45,9 @@ python3 cli.py https://piapro.net/images/ch_img_miku.png
        ▉▍╴▏            ▗▗▗▖
        ▉▝▝▊            ▎▝▊┚
         ▄▃▄            ▅▄▄
+
 Miku is in a picture! (Confidence: 1.00)
 python3 cli.py https://www.pokemonunite.jp/assets/img/pokemon/thumb-210617_01.png
-
-
 
                             ▂▄▅
                  ▂▖       ▃▇▇▗▊
@@ -71,9 +71,6 @@ python3 cli.py https://www.pokemonunite.jp/assets/img/pokemon/thumb-210617_01.pn
             ▝▃╎▁▅▅▅▆▇▇▂▂▂▝▃▘▉▄▂▂▃▁▗
               ▆▃▃▂▁▁▁▁▂▂▂▂▁▁▂▁▂▁▁▃
                            ▇▆▅▅▆
-
-
-
 
 Miku isn't in a picture. (Confidence: 0.95)
 ```
